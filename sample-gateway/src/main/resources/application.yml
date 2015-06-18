@@ -1,0 +1,10 @@
+server:
+  port: 81
+
+ribbon:
+  eureka:
+   enabled: false
+
+sample-service:
+  ribbon:
+    listOfServers: http://localhost:82/sample-service/
